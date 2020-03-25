@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css"> <!--Ajout de bootstrap-->
+    <link rel="stylesheet" href="style.css"> <!--Ajout de la page de style-->
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Jane DOE</h1>
-        <h2>Développeur web Full Stack</h2>
+        <div class="container">
+            <h1><em>Jane</em> DOE</h1>
+            <h2>Développeur web Full Stack</h2>
+        </div>
+        <aside class="container-fluid">
+            <div class="container row">
+                <div id="profil" class=" col-xl-4 col-md-12 col-sm-12 left-block">
+                    <div class="profilpic"><img src="links/profilpic.png" alt="photo de profil"></div>
+                    <h2 class="banner">CONTACT</h2>
+                        <ul class="coordonnées_base">
+                            <li>Mon email : ....@machine.com</li>
+                            <li>Mon numéro de téléphone : 000000000000X</li>
+                            <li>Mon Twitter : ....</li>
+                            <li>Mon Github : ....</li>
+                            <li><a href=" site inernet : NININININI.com">Mon site internet blablabla.com</a></li>
+                        </ul>
+                    <h2 class="banner">à propos de moi</h2>
+                        <p>ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
+                    <h2 class="banner">Loisirs</h2>
+                        <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
+                        <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
+            </div>
+        </aside>
     </header>
     
-    <aside>
-        <div class="container">
-            <div id="photodeprofil">
-                <img src="" alt="photo de profil cv">
-            </div>
-        <div id="coordonnées">
-            <h2>Mes coordonnées & Social media</h2>
-            <ul class="coordonnées_base">
-                <li>Mon email : ....@machine.com</li>
-                <li>Mon numéro de téléphone : 000000000000X</li>
-                <li><a href=" site inernet : NININININI.com">Mon site internet blablabla.com</a></li>
-            </ul>
-            <ul class="reseauxsociaux">
-                <li>Mon Facebook : ....</li>
-                <li>Mon Twitter : ....</li>
-                <li>Mon Github : ....</li>
-            </ul>
-        </div>
-        <div id="softskills"></div>
-    </aside>
+    
    
-    <div class="container">
-        <section id="formation">
+    <div class="container-fluid">
+        <section class="container" id="formation">
             <div class="icone_form">
                 <img src="" alt="icone formation"/>
             </div>
