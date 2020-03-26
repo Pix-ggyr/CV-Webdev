@@ -1,104 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css"> <!--Ajout de bootstrap-->
-    <link rel="stylesheet" href="style.css"> <!--Ajout de la page de style-->
-    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css"><!--Ajout de bootstrap-->
+    <link rel="stylesheet" href="style.css"><!--Ajout de la page de style-->
+    <script src="https://kit.fontawesome.com/dac98d5ff4.js" crossorigin="anonymous"></script><!--Ajout du pack d'icones FontAwesome-->
+
+    <title>CV Github</title>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1><em>Jane</em> DOE</h1>
-            <h2>Développeur web Full Stack</h2>
-        </div>
-        <aside class="container-fluid">
-            <div class="container row">
-                <div id="profil" class=" col-xl-4 col-md-12 col-sm-12 left-block">
-                    <div class="profilpic"><img src="links/profilpic.png" alt="photo de profil"></div>
-                    <h2 class="banner">CONTACT</h2>
-                        <ul class="coordonnées_base">
-                            <li>Mon email : ....@machine.com</li>
-                            <li>Mon numéro de téléphone : 000000000000X</li>
-                            <li>Mon Twitter : ....</li>
-                            <li>Mon Github : ....</li>
-                            <li><a href=" site inernet : NININININI.com">Mon site internet blablabla.com</a></li>
-                        </ul>
-                    <h2 class="banner">à propos de moi</h2>
-                        <p>ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
-                    <h2 class="banner">Loisirs</h2>
-                        <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
-                        <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
+
+<body class="row col-12">
+    <!--Mise en page du body sur toute la largeur de la page qqsoit le device-->
+    <header class="col-xl-2 col-md-12 col-sm-12 left-block">
+        <!--Définir la largeur du header à 1/3 de la page pour créer le block "profil"-->
+        <aside>
+            <div id="profil">
+                <div class="profilpic"><img src="links/profilpic.png" alt="photo de profil"></div><br/>
+                <h2 class="banner">CONTACT</h2>
+                <ul class="coordonnées_base">
+                    <li>Mon email : ....@machine.com</li>
+                    <li>Mon numéro de téléphone : 000000000000X</li>
+                    <li>Mon Twitter : ....</li>
+                    <li>Mon Github : ....</li>
+                    <li><a href=" site inernet : NININININI.com">Mon site internet blablabla.com</a></li>
+                </ul>
+                <h2 class="banner">à propos de moi</h2>
+                <p>ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu
+                    efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec
+                    tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit. Seum sunt pariatur recusandae quas fuga ipsam quam
+                    sequi, impedit vitae mollitia aspernatur illum ipsa molestias officiis vel modi nemo unde totam illo
+                    deserunt rem nulla quo. Odio, eligendi..</p>
+                <h2 class="banner">Loisirs</h2>
+                <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
+                <img src="" alt="icone"><img src="" alt="icone"><img src="" alt="icone">
             </div>
         </aside>
     </header>
-    
-    
-   
-    <div class="container-fluid">
-        <section class="container" id="formation">
-            <div class="icone_form">
-                <img src="" alt="icone formation"/>
-            </div>
-            <h2>FORMATION</h2>
-                <div class="diplome_1">
-                    <div class="date"><h3>Année/Lieu</h3></div>
-                    <p><h4>NOM DE LA FORMATION</h4> ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
+
+    <div class=" contenu col-xl-8">
+        <div class="container-fluid">
+            <div class="container">
+                <br /><br /><br />
+                <h1><em>Gwen</em> GYR</h1>
+                <h2><span class="underlined">Dével</span>oppeur web Full Stack</h2><br />
+                <br /><br /><br />
+                <div class=" formation row">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>FORMATION</h2>
                 </div>
-                <div class="diplome_2">
-                    <div class="date"><h3>Année/Lieu</h3></div>
-                    <p><h4>NOM DE LA FORMATION</h4> ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <section class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>2019 - 2020<br>
+                                    Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>DEVELOPPEUR WEB - OPENCLASSROOMS</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                    amet arcu euismod malesuada.</p>
+                            </div>
+                        </section>
+                        <br />
+                        <section class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>2014 - 2016<br>
+                                    Bordeaux
+                                </h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>MASTER PRO. Médiations des Sciences</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                    amet arcu euismod malesuada.</p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-        </section>
-    </div>
-    <div class="container">    
-        <section id="experience_pro">
-            <div class="icone_pro">
-                <img src="" alt="icone experience pro">
+                <br /><br />
+                <div class="xp row">
+                    <i class="fas fa-suitcase"></i>
+                    <h2>Expérience professionnelle</h2>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <section class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2020 - Poste actuel<br>
+                                    Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Développeuse web freelance</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                    amet arcu euismod malesuada.</p>
+                            </div>
+                        </section>
+                        <br /><br />
+                        <section class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2018 - Poste actuel<br>
+                                    Bordeaux
+                                </h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Graphic designer freelance</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                    amet arcu euismod malesuada.</p>
+                            </div>
+                        </section>
+                        <br /><br />
+                        <section class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2018 - Poste actuel<br>
+                                    Bordeaux
+                                </h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Photo-reporter indépendant</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                    amet arcu euismod malesuada.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <br /><br />
+                <div class="xp row">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h2>recommandations</h2>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <section class="container row">
+                            <div class="col-xl-6 col-md-12 col-sm-12">
+                                <h4>NOM Prénom</h4>
+                                <ul>
+                                    <li>Poste</li>
+                                    <li>Entreprise</li>
+                                    <li>N° de téléphone</li>
+                                    <li>Email</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 col-md-12 col-sm-12">
+                                <h4>NOM Prénom</h4>
+                                <ul>
+                                    <li>Poste</li>
+                                    <li>Entreprise</li>
+                                    <li>N° de téléphone</li>
+                                    <li>Email</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <br /><br />
+                    </div>
+                </div>
             </div>
-            <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
-            <div id="entreprise_1">
-                <div class="date"><h3>Année/Lieu</h3></div>
-                <p><h4>NOM DE L'ENTREPRISE</h4> ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
-            </div>
-            <div id="entreprise_2">
-                <div class="date"><h3>Année/Lieu</h3></div>
-                <p><h4>NOM DE L'ENTREPRISE</h4> ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
-            </div>
-            <div id="entreprise_3">
-                <div class="date"><h3>Année/Lieu</h3></div>
-                <p><h4>NOM DE L'ENTREPRISE</h4> ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis est est, vitae aliquet arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit amet arcu euismod malesuada.</p>
-            </div>
-        </section>
-    </div>
-    <div class="container">    
-        <section id="recommandations">
-            <div class="icone_reco">
-                <img src="" alt="icone recommandations">
-            </div>
-            <h2>RECOMMANDATIONS</h2>
-            <div id="reco_1">
-                <p><h4>NOM Prénom</h4> 
-                    <ul>
-                        <li>Poste</li>
-                        <li>Entreprise</li>
-                        <li>N° de téléphone</li>
-                        <li>Email</li>
-                    </ul>
-                </p>
-            </div>
-            <div id="reco_2">
-                <p><h4>NOM Prénom</h4> 
-                    <ul>
-                        <li>Poste</li>
-                        <li>Entreprise</li>
-                        <li>N° de téléphone</li>
-                        <li>Email</li>
-                    </ul>
-                </p>
-            </div>
-        </section>
+        </div>
     </div>
 </body>
+
 </html>
