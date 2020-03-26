@@ -1,8 +1,11 @@
 /*-------------------------- Page de style CV Web--------------------------*/
 
-/* Polices & Textes */
+/*-------------------------- Formatage des textes------------------------- */
 
-em {
+
+    /*Fromatage des emphases*/
+
+em { 
     font-style: normal;
     color: blue;
 }
@@ -12,6 +15,8 @@ span.underlined {
     border-bottom: solid 1.5px blue;
 
 }
+
+    /*Fromatage des paragraphes et listes à puces*/
 
 p {
     font-size: 1em;
@@ -24,13 +29,15 @@ li {
     padding-left: -30px;
 }
 
+    /*Fromatage des titres*/
+
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 2em;
     text-transform: uppercase;
 }
 
@@ -43,13 +50,20 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
 }
-/* Largeur de la page */
+
+h5 {
+    font-size: 1em;
+}
+
+
+/*-------------------------- Réglages de la page ------------------------- */
 
 body {
     width: auto;
 }
 
-/* Mise en page du bandeau vertical à droite */
+    /* Mise en page du bandeau vertical à droite */
+
 .left-block {
     overflow-wrap: break-word; /* Inclus une césure des textes débordants*/
     height: 1448px;
@@ -68,42 +82,48 @@ body {
 }
 
 .banner {
+
+    padding-right: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
     color: white;
     text-align: center;
-    margin: 20px;
-    padding: 5px;
 }
 
-.profilpic {
-    text-align: center;
-    margin: 30px;
-}
-
-/* Mise en forme du contenu */
+    /* Mise en forme du contenu */
 
 .contenu {
 
     margin-left: 30px;
 }
 
+.reco {
+
+    border-bottom: solid blue 2px;
+}
+
 .xp {
 
-        border-bottom: solid blue 2px;
+    border-bottom: solid blue 2px;
 }
 .formation {
 
     border-bottom: solid blue 2px;
 }
 
-/* Mise en forme des icones */
+/*-------------------------- Réglages des icones et illustrations ------------------------- */
 
-i {
-    display: block;
-    color: blue;
-    font-size: 50px;
-    margin-right: 15px;
-    padding-bottom: 20px;
-    position: relative;
-    text-align: left;
+.profilpic {
+    text-align: center;
+    margin: 30px;
 }
+
+.fas {
+    color: blue;
+    font-size: 2.5em;
+    margin-right: 10px;
+}
+
+
