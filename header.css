@@ -1,0 +1,47 @@
+/*------------------------Stylesheet Header------------------------*/
+
+    /*Photo de profil*/
+
+#bloc_gauche {
+    background-color: rgb(84, 1, 218);
+    height: auto;
+
+}
+
+#profile_pic {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    background-image:url(links/avatar.png);
+    border: 5px solid #3f0f99;
+    border-radius: 50%;
+}
+
+    /*Mise en forme du texte dans le bloc droit*/
+
+header h1 {
+    margin-top: 8%;
+    margin-left: 5%;
+    padding: 0px;
+    font-family: "Roboto", "Arial", "Helvetica";
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+
+header h2 {
+    margin-left:5%;
+    padding: 0px;
+    font-family: "Roboto", "Arial", "Helvetica";
+    font-size: 2em;
+}
+
+header em {
+    color: rgb(84, 1, 218);
+    font-style: normal;
+}
+
+header span {
+    border-bottom: solid 2px rgb(84, 1, 218);
+}

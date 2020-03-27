@@ -1,0 +1,19 @@
+/*------------------------Stylesheet Aside------------------------*/
+
+    /*Titres-blocks*/
+
+#bandeau_gauche h3 {
+    font-size: 1.7em;
+    color: rgb(84, 1, 218);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    background-color: black;
+}
+
+    /*Mise en page*/
+#bandeau_gauche {
+    width: 120%;
+    background-color:rgb(84, 1, 218);
+}
