@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="aside.css">
     <!--Ajout de la Google Font Roboto-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet" />
-    <!--Ajout du pack d'icones FontAwesome-->    
+    <!--Ajout du pack d'icones FontAwesome-->
     <script src="https://kit.fontawesome.com/dac98d5ff4.js"></script>
 </head>
 
 <body class="col-12">
     <header class="container-fluid">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-10 col-sm-12" id="bloc_gauche">
+            <div id="bloc_gauche" class="col-xl-4 col-lg-4 col-md-10 col-sm-12">
                 <div class="mx-auto" id="profile_pic">
                     <!--photo du profil sur le css-->
                     <!--pour permettre des modifications plus précises-->
@@ -32,105 +32,204 @@
             </div>
         </div>
     </header>
-    <div id="contenu" class="row">
-        <aside id="bandeau_gauche" class="container-fluid">
-            <div class="container-fluid">
-                <div class="col-3" id="profile">
-                    <h3>contact</h3><br />
-                    <p>Adresse :<br />Bordeaux, Gironde</p>
-                    <p>Téléphone :<br />0670901793</p>
-                    <p>Email :<br />gwengyr@protonmail.com</p>
-                    <p>Twitter :<br />Gwen_Gyr</p>
-                    <p>GitHub :<br />Pix-ggyr</p>
-                    <p>Discord :<br />Pixmaniak#4479</p>
+
+    <!--Aside : profil et bloc de gauche-->
+
+    <aside class="container-fluid">
+        <div id="bandeau_gauche" class="col-xl-4 col-lg-4 col-md-10 col-sm-12">
+            <div id="profile" class="">
+                <h3>contact</h3><br />
+                <p>Adresse :<br />Bordeaux, Gironde</p>
+                <p>Email :<br />gwengyr@protonmail.com</p>
+                <p>Twitter :<br />Gwen_Gyr</p>
+                <p>GitHub :<br />Pix-ggyr</p>
+                <p>Discord :<br />Pixmaniak#4479</p>
+            </div>
+            <br />
+            <div id="about" class="">
+                <h3>à propos de moi</h3><br />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, error vero velit atque odit
+                    optio odio mollitia. Quis pariatur earum enim praesentium tempore ratione error sunt
+                    cupiditate,
+                    ipsam corporis ullam!
+                    Temporibus molestias sequi ab sapiente maxime cumque debitis perspiciatis nesciunt,
+                    cupiditate
+                    id magni sed atque animi voluptatem mollitia similique sunt eligendi non accusantium eos.
+                    Corporis sed a officia exercitationem sunt.Ipsum, alias doloribus. Hic deserunt ullam vel
+                    illo
+                    vitae corporis iusto, similique ex aut repellat sunt repellendus cumque iure perferendis
+                    odit
+                    laboriosam cum reiciendis eaque accusamus enim dicta quidem? At?</p>
+            </div>
+            <br />
+            <div id="hobbies" class="">
+                <h3>loisirs</h3><br />
+                <div id="hob_icons" class="d-flex justify-content-between flex-row p-2 bd-highlight">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-gamepad fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-camera-retro fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-cat fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                </div><br />
+                <div id="hob_icons_2" class="d-flex justify-content-between flex-row p-2 bd-highlight">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-carrot fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-hiking fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-coffee fa-stack-1x"></i>
+                        <i class="far fa-circle fa-stack-2x"></i>
+                    </span>
                 </div>
-                <div class="col-3" id="about">
-                    <h3>à propos de moi</h3><br />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, error vero velit atque odit
-                        optio odio mollitia. Quis pariatur earum enim praesentium tempore ratione error sunt
-                        cupiditate,
-                        ipsam corporis ullam!
-                        Temporibus molestias sequi ab sapiente maxime cumque debitis perspiciatis nesciunt,
-                        cupiditate
-                        id magni sed atque animi voluptatem mollitia similique sunt eligendi non accusantium eos.
-                        Corporis sed a officia exercitationem sunt.Ipsum, alias doloribus. Hic deserunt ullam vel
-                        illo
-                        vitae corporis iusto, similique ex aut repellat sunt repellendus cumque iure perferendis
-                        odit
-                        laboriosam cum reiciendis eaque accusamus enim dicta quidem? At?</p>
-                </div>
-                <div class="col-3" id="hobbies">
-                    <h3>loisirs</h3><br />
-                    <div id="hob_icons">
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-gamepad fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-camera-retro fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-cat fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
-                    </div><br />
-                    <div id="hob_icons_2">
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-carrot fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-hiking fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-coffee fa-stack-1x"></i>
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                        </span>
+            </div>
+            <br />
+        </div>
+    </aside>
+
+    <!--Section : Career (formation, exp, reco)-->
+
+    <section id="career" class="container-fluid">
+        <div class=" contenu col-xl-8 col-lg-7 col-md-12 col-sm-12">
+            <article id="formations">
+                <span class="title row">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2 class="career-title">FORMATION</h2>
+                </span>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>2019 - 2020<br>
+                                Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>OPENCLASSROOMS</h4>
+                                <h5>Développeur Web</h5>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                amet arcu euismod malesuada.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>2014 - 2016<br>
+                                Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Université Bordeaux Montaigne</h4>
+                                <h5>MASTER PRO. Médiations des Sciences</h5>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                amet arcu euismod malesuada.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </aside>
-        <section class="container-fluid">
-            <div class="container">
-                <article class="row">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto reprehenderit architecto
-                        consectetur sequi ratione rem excepturi, facere aspernatur laboriosam alias dignissimos
-                        distinctio sapiente magni quibusdam dicta quidem perferendis unde.
-                        Amet dignissimos consectetur sunt, quaerat quod neque atque consequuntur repellat, quia
-                        repellendus asperiores commodi. Consectetur quam ad assumenda exercitationem expedita totam
-                        fugit excepturi et deserunt doloribus asperiores, a architecto beatae.
-                        Nobis laborum cumque doloribus qui, ipsum, error explicabo commodi blanditiis asperiores
-                        voluptate repellendus mollitia modi? Facilis numquam itaque totam blanditiis ea qui cumque?
-                        Repudiandae modi perspiciatis dignissimos, ex a iste.
-                        Perferendis voluptas expedita accusantium? Magni ullam unde fugiat ex odio sed commodi eveniet
-                        dolorem similique tempore architecto modi aspernatur possimus, illo doloremque soluta culpa
-                        harum sunt. Necessitatibus blanditiis et hic!
-                        Quaerat expedita, dolores aliquam pariatur nostrum vitae, est voluptatum voluptas cumque esse
-                        facere. Ipsam voluptatum rem quis odit architecto! Quia in ipsum minus est inventore quaerat
-                        aliquam rem repellat maxime.</p>
-                </article>
-                <article class="row">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto reprehenderit architecto
-                        consectetur sequi ratione rem excepturi, facere aspernatur laboriosam alias dignissimos
-                        distinctio sapiente magni quibusdam dicta quidem perferendis unde.
-                        Amet dignissimos consectetur sunt, quaerat quod neque atque consequuntur repellat, quia
-                        repellendus asperiores commodi. Consectetur quam ad assumenda exercitationem expedita totam
-                        fugit excepturi et deserunt doloribus asperiores, a architecto beatae.
-                        Nobis laborum cumque doloribus qui, ipsum, error explicabo commodi blanditiis asperiores
-                        voluptate repellendus mollitia modi? Facilis numquam itaque totam blanditiis ea qui cumque?
-                        Repudiandae modi perspiciatis dignissimos, ex a iste.
-                        Perferendis voluptas expedita accusantium? Magni ullam unde fugiat ex odio sed commodi eveniet
-                        dolorem similique tempore architecto modi aspernatur possimus, illo doloremque soluta culpa
-                        harum sunt. Necessitatibus blanditiis et hic!
-                        Quaerat expedita, dolores aliquam pariatur nostrum vitae, est voluptatum voluptas cumque esse
-                        facere. Ipsam voluptatum rem quis odit architecto! Quia in ipsum minus est inventore quaerat
-                        aliquam rem repellat maxime.</p>
-                </article>
-            </div>
-        </section>
-    </div>
+            </article>
+            <br /><br />
+            <article id="experience">
+                <span class="xp row">
+                    <i class="fas fa-suitcase"></i>
+                    <h2 class="career-title">Expérience professionnelle</h2>
+                </span>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2020 - Poste actuel<br>
+                                Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Développeuse web freelance</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                amet arcu euismod malesuada.</p>
+                            </div>
+                        </div>
+                        <br /><br />
+                        <div class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2018 - Poste actuel<br>
+                                Bordeaux</h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Graphic designer freelance</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                amet arcu euismod malesuada.</p>
+                            </div>
+                        </div>
+                        <br /><br />
+                        <div class="container row">
+                            <div class="col-xl-4 col-md-12 col-sm-12">
+                                <h3>Jan. 2018 - Poste actuel<br>
+                                Bordeaux
+                                </h3>
+                            </div>
+                            <div class="col-xl-8 col-md-12 col-sm-12">
+                                <h4>Photo-reporter indépendant</h4>
+                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae aliquet
+                                arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
+                                pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus sit
+                                amet arcu euismod malesuada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <br /><br />
+            <article id="recommandations">
+                <span class="reco row">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h2 class="career-title">recommandations</h2>
+                </span>
+                <br />
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="container row">
+                            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
+                                <h4>NOM Prénom</h4>
+                                <ul>
+                                    <li>Poste</li>
+                                    <li>Entreprise</li>
+                                    <li>N° de téléphone</li>
+                                    <li>Email</li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
+                                <h4>NOM Prénom</h4>
+                                <ul>
+                                    <li>Poste</li>
+                                    <li>Entreprise</li>
+                                    <li>N° de téléphone</li>
+                                    <li>Email</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <br /><br />
 </body>
 
 </html>
