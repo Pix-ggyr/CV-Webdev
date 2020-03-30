@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="aside.css">
-    <!--Ajout de la Google Font Roboto-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="right_section.css">
+    <!--Ajout de la Google Font Open Sans-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
     <!--Ajout du pack d'icones FontAwesome-->
     <script src="https://kit.fontawesome.com/dac98d5ff4.js"></script>
 </head>
@@ -29,7 +30,7 @@
         <div class="col-8" id="bloc_droit">
             <section id="entete_cv">
                 <h1><em>Gwen</em> GYR</h1>
-                <h2><span class="souligné">Dével</span>oppeur web Full Stack</h2><br />
+                <h2><strong>Dével</strong>oppeuse web Full Stack</h2><br />
             </section>
         </div>
     </header>
@@ -37,32 +38,22 @@
     <!--Aside : profil et bloc de gauche-->
 
     <div class="row">
+
         <aside id="bandeau_gauche" class="col-xl-4 col-lg-4 col-md-10 col-sm-12">
             <div id="profile">
                 <h3>contact</h3><br />
-                <p>Adresse :<br />Bordeaux, Gironde</p>
-                <p>Email :<br />gwengyr@protonmail.com</p>
-                <p>Twitter :<br />Gwen_Gyr</p>
-                <p>GitHub :<br />Pix-ggyr</p>
-                <p>Discord :<br />Pixmaniak#4479</p>
+                <p>Adresse<br />Bordeaux, Gironde</p>
+                <p>Email<br />gwengyr@protonmail.com</p>
+                <p>Twitter<br />Gwen_Gyr</p>
+                <p>GitHub<br />Pix-ggyr</p>
+                <p>Discord<br />Pixmaniak#4479</p>
             </div>
-            <br />
+            <br /><br />
             <div id="about">
                 <h3>à propos de moi</h3><br />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, error vero velit atque odit
-                    optio odio mollitia. Quis pariatur earum enim praesentium tempore ratione error sunt
-                    cupiditate,
-                    ipsam corporis ullam!
-                    Temporibus molestias sequi ab sapiente maxime cumque debitis perspiciatis nesciunt,
-                    cupiditate
-                    id magni sed atque animi voluptatem mollitia similique sunt eligendi non accusantium eos.
-                    Corporis sed a officia exercitationem sunt.Ipsum, alias doloribus. Hic deserunt ullam vel
-                    illo
-                    vitae corporis iusto, similique ex aut repellat sunt repellendus cumque iure perferendis
-                    odit
-                    laboriosam cum reiciendis eaque accusamus enim dicta quidem? At?</p>
+                <p><strong>Bonjour !</strong> Je suis une autoentrepreneur de 30 ans, travaillant dans la région Nouvelle-Aquitaine. Je propose des services de développement web, de conseil en communication et de créations visuelle pour l'éditorial ou le web. Habituée à travailler autant avec des structures publiques qu'avec de petites entreprises, je saurais vous proposer une prestation sûr-mesure en fonction de vos besoins. Véritable femme couteau-suisse, je saurais mener votre projet web-communication de bout en bout, de la réalisation d'un plan de communication, en passant par la réalisation d'une maquette ergonomique à la conception de votre site internet et de son back-office. Vous avez besoin de faire une place sur la toile pour votre business ? N'attendez plus et contactez-moi !</p>
             </div>
-            <br />
+            <br /><br />
             <div id="hobbies">
                 <h3>loisirs</h3><br />
                 <div id="hob_icons" class="d-flex justify-content-between flex-row p-2 bd-highlight">
@@ -99,146 +90,138 @@
 
         <!--Section : Career (formation, exp, reco)-->
 
-        <section id="career" class=" contenu col-xl-8 col-lg-7 col-md-10 col-sm-12">
+        <section id="career" class="contenu col-xl-8 col-lg-7 col-md-10 col-sm-12">
             <article id="formations">
-                <span class="title row">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h2 class="career-title">FORMATION</h2>
-                </span>
+                <div class="title row">
+                    <div class="icone d-flex justify-content-between col-1">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="col-11">
+                    <h2 class="career-title">formation</h2>
+                    </div>
+                </div>
                 <br />
                 <div class="row">
-                    <div class="container-fluid">
-                        <div class="container row">
-                            <div class="col-xl-4 col-md-12 col-sm-12">
-                                <h3>2019 - 2020<br>
-                                    Bordeaux</h3>
-                            </div>
-                            <div class="col-xl-8 col-md-12 col-sm-12">
-                                <h4>OPENCLASSROOMS</h4>
-                                <h5>Développeur Web</h5>
-                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae
-                                    aliquet
-                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
-                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus
-                                    sit
-                                    amet arcu euismod malesuada.</p>
-                            </div>
-                        </div>
-                        <br />
-                        <div class="container row">
-                            <div class="col-xl-4 col-md-12 col-sm-12">
-                                <h3>2014 - 2016<br>
-                                    Bordeaux</h3>
-                            </div>
-                            <div class="col-xl-8 col-md-12 col-sm-12">
-                                <h4>Université Bordeaux Montaigne</h4>
-                                <h5>MASTER PRO. Médiations des Sciences</h5>
-                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae
-                                    aliquet
-                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
-                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus
-                                    sit
-                                    amet arcu euismod malesuada.</p>
-                            </div>
-                        </div>
+                    <span class="puce_i d-flex justify-content-end col-1 col-lg-1 col-md-1 col-sm-1">
+                        <i class="fas fa-dot-circle"></i>                        
+                    </span>
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                        <div class="row"></div>
+                        <h3>2019 - 2020<br>
+                            À distance</h3>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <h4>OPENCLASSROOMS</h4>
+                        <h5>Développeur Web</h5>
+                        <p> Une formation qui me permettra de devenir développeur web dans les entreprises de type ESN (anciennement SSII), mais aussi des agences web, des start-up, des PME, des grandes sociétés ou encore sous le statut d’autoentrepreneur.</p>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <span class=" puce d-flex justify-content-end col-1">
+                        <i class="fas fa-circle"></i>
+                    </span>
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                        <h3>2014 - 2016<br>
+                            Bordeaux</h3>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <h4>Université Bordeaux Montaigne</h4>
+                        <h5>Master professionnel Médiations des Sciences</h5>
+                        <p> Co-habilité par l’Université Bordeaux Montaigne et l’université de Bordeaux, le master Information et médiation scientifique et technique (IMST) a pour ambition d’étudier la science, son discours, ses concepts, ses relations avec la société, dans leurs dimensions historiques, philosophiques, sociologiques, éthiques et communicationnelles.</p>
                     </div>
                 </div>
             </article>
             <br /><br />
             <article id="experience">
-                <span class="xp row">
-                    <i class="fas fa-suitcase"></i>
-                    <h2 class="career-title">Expérience professionnelle</h2>
-                </span>
+                <div class="title row">
+                    <div class="icone d-flex justify-content-between col-1">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <div class="col-11">
+                    <h2 class="career-title">expérience professionnelle</h2>
+                    </div>
+                </div>
                 <br />
                 <div class="row">
-                    <div class="container-fluid">
-                        <div class="container row">
-                            <div class="col-xl-4 col-md-12 col-sm-12">
-                                <h3>Jan. 2020 - Poste actuel<br>
-                                    Bordeaux</h3>
-                            </div>
-                            <div class="col-xl-8 col-md-12 col-sm-12">
-                                <h4>Développeuse web freelance</h4>
-                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae
-                                    aliquet
-                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
-                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus
-                                    sit
-                                    amet arcu euismod malesuada.</p>
-                            </div>
-                        </div>
-                        <br /><br />
-                        <div class="container row">
-                            <div class="col-xl-4 col-md-12 col-sm-12">
-                                <h3>Jan. 2018 - Poste actuel<br>
-                                    Bordeaux</h3>
-                            </div>
-                            <div class="col-xl-8 col-md-12 col-sm-12">
-                                <h4>Graphic designer freelance</h4>
-                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae
-                                    aliquet
-                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
-                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus
-                                    sit
-                                    amet arcu euismod malesuada.</p>
-                            </div>
-                        </div>
-                        <br /><br />
-                        <div class="container row">
-                            <div class="col-xl-4 col-md-12 col-sm-12">
-                                <h3>Jan. 2018 - Poste actuel<br>
-                                    Bordeaux
-                                </h3>
-                            </div>
-                            <div class="col-xl-8 col-md-12 col-sm-12">
-                                <h4>Photo-reporter indépendant</h4>
-                                <p> Dolor sit amet, consectetur adipiscing elit. Etiam convalli est est, vitae
-                                    aliquet
-                                    arcu efficitur et. Aliquam gravida, mauris nec hendrerit feugiat, tortor ante
-                                    pellentesque lectus, nec tempus ex leo vehicula sapien. Curabitur quis tellus
-                                    sit
-                                    amet arcu euismod malesuada.</p>
-                            </div>
-                        </div>
+                    <span class="puce_i d-flex justify-content-end col-1">
+                        <i class="fas fa-dot-circle"></i>                        
+                    </span>
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                        <h3>Jan. 2020 - Poste actuel<br>
+                            Bordeaux</h3>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <h4>Freelance</h4>
+                        <h5>Photographe, Graphiste, Rédactrice & Développeur Web</h5>
+                        <p> Grâce à mes compétences transversales je mets mon savoir faire et mon expertise à votre service pour donner du punch à votre communication visuelle, concevoir votre site web, animer vos réseaux sociaux, ou élargir votre photothèque !</p>
+                    </div>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <span class="puce d-flex justify-content-end col-1">
+                        <i class="fas fa-circle"></i>
+                    </span>
+                    <div class="col-xl-3 col-lg-3 col-md-10 col-sm-10">
+                        <h3>Oct. 2017 - Jan. 2018<br>
+                            Talence</h3>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <h4>A to B Communication</h4>
+                        <h5>Cheffe de projet communication & web content manager</h5>
+                        <p> Reponsable du pôle photographie et contenu web. Ma mission principale : créer des sites internets personnalisés pour des clients scientifiques ou startuppers.</p>
+                    </div>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <span class=" puce d-flex justify-content-end col-1">
+                        <i class="fas fa-circle"></i>
+                    </span>
+                    <div class="col-xl-3 col-lg-3 col-md-11 col-sm-11">
+                        <h3>Jan. 2017 - Poste actuel<br>
+                            Bordeaux
+                        </h3>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <h4>Conseil départemental de la Gironde</h4>
+                        <h5>Journaliste pigiste et photo-reporter</h5>
+                        <p> Chaque trimestre, je réalise un article complet et un reportage photo pour le journal du département : Gironde Mag.
+                            Cela fait 3 ans maintenant que je leur prête plume et lentille.</p>
                     </div>
                 </div>
             </article>
             <br /><br />
             <article id="recommandations">
-                <span class="reco row">
-                    <i class="fas fa-pencil-alt"></i>
+                <div class="title row">
+                    <div class="icone d-flex justify-content-between col-1">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="col-11">
                     <h2 class="career-title">recommandations</h2>
-                </span>
-                <br />
-                <div class="row">
-                    <div class="container-fluid">
-                        <div class="container row">
-                            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
-                                <h4>NOM Prénom</h4>
-                                <ul>
-                                    <li>Poste</li>
-                                    <li>Entreprise</li>
-                                    <li>N° de téléphone</li>
-                                    <li>Email</li>
-                                </ul>
-                            </div>
-                            <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12">
-                                <h4>NOM Prénom</h4>
-                                <ul>
-                                    <li>Poste</li>
-                                    <li>Entreprise</li>
-                                    <li>N° de téléphone</li>
-                                    <li>Email</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
+                <br />
+                <div class="reco row">
+                    <div class= "col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <h4>Anne Salègues</h4>
+                        <p>Responsable culture<br />
+                        univ. de Bordeaux<br />
+                        00 00 00 00 00<br />
+                        a.salegues@u-bordeaux.fr</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <h4>Didier Béjie</h4>
+                        <p>Responsable communication<br />
+                        C.D.G<br />
+                        00 00 00 00 00<br />
+                        dbj@gironde.fr</p>
+                    </div>
+                </div>
+                <br /><br />
             </article>
         </section>
     </div>
-    <br /><br />
+
 </body>
 
 </html>

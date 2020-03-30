@@ -3,29 +3,30 @@
     /*Photo de profil*/
 
 #bloc_gauche {
-    background-color: rgb(84, 1, 218);
+    background-color:#FF5722;
     height: auto;
 
 }
 
 #profile_pic {
 
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 50px;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-image:url(links/avatar.png);
-    border: 5px solid #3f0f99;
+    border: 4px solid #BF360C;
     border-radius: 50%;
 }
 
     /*Mise en forme du texte dans le bloc droit*/
 
 header h1 {
+    font-weight: normal;
     margin-top: 8%;
     margin-left: 5%;
     padding: 0px;
-    font-family: "Roboto", "Arial", "Helvetica";
+    font-family: 'Open Sans', sans-serif ;
     font-size: 3.8em;
     text-transform: uppercase;
 }
@@ -33,15 +34,18 @@ header h1 {
 header h2 {
     margin-left:5%;
     padding: 0px;
-    font-family: "Roboto", "Arial", "Helvetica";
+    font-family: 'Open Sans', sans-serif ;
     font-size: 2em;
+    font-weight: normal;
 }
 
 header em {
-    color: rgb(84, 1, 218);
+    color: #FF5722;
+    font-weight: bold;
     font-style: normal;
 }
 
-header span {
-    border-bottom: solid 2px rgb(84, 1, 218);
+header strong {
+    border-bottom: solid 2px #FF5722;
+    font-weight: normal;
 }

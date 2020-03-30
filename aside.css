@@ -4,24 +4,39 @@
 
 #bandeau_gauche h3 {
     font-size: 1.7em;
-    color: rgb(84, 1, 218);
+    color: #FF5722;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     padding: 5px 0px 5px 0px;
-    background-color: #2c2f33;
+    background-color: #212121;
 }
 
-    /*Mise en page*/
+    /*Mise en page & textes*/
 
 #bandeau_gauche {
     width: 100%;
-    background-color:rgb(84, 1, 218);
-    text-align: justify;
-    padding-left: 4%;
-    padding-right: 4%;  
+    background-color:#FF5722;
+    text-align: justify;  
 }
 
-#hobbies .fas .far {
-    color: #2c2f33;
+aside p {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 1.05em;
+    font-family: 'Open Sans', sans-serif ;
 }
+
+#about p {
+    font-weight: normal;
+    font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+    /* Ajustement des icônes "Hobbies"*/
+
+#hobbies .fas .far {
+    color: #212121;
+}
+
