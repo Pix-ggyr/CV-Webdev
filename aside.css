@@ -1,0 +1,42 @@
+/*------------------------Stylesheet Aside------------------------*/
+
+    /*Titres-blocks*/
+
+#bandeau_gauche h3 {
+    font-size: 1.7em;
+    color: #FF5722;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 0px 5px 0px;
+    background-color: #212121;
+}
+
+    /*Mise en page & textes*/
+
+#bandeau_gauche {
+    width: 100%;
+    background-color:#FF5722;
+    text-align: justify;  
+}
+
+aside p {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 1.05em;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+#about p {
+    font-weight: normal;
+    font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+    /* Ajustement des icônes "Hobbies"*/
+
+#hobbies .fas .far {
+    color: #212121;
+}
+
