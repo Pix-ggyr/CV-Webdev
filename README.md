@@ -1,4 +1,4 @@
-# GwenGyr
+# Projet de CV web pour Gwen Gyr
 
 Projet 2 dans le cadre de la formation Openclassrooms Développeur web. 
 
@@ -26,6 +26,4 @@ README.md
   /avatar.png
 /ressources
   /maquette_découpage
-/fonts
-  /open_sans.ttf
   
