@@ -73,6 +73,10 @@ section .title {
 
 @media screen and (max-width : 576px) {
 
+    section .title {
+        margin-left: 0;
+    }
+
     .puce_i i {
         display: none;
     }
