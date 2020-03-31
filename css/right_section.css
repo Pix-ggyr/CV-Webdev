@@ -73,4 +73,34 @@ section .title {
 
 @media screen and (max-width : 576px) {
 
+    .puce_i i {
+        display: none;
+    }
+
+    .puce i {
+        display: none;
+    }
+
+    section h3 {
+        margin-left: -38px;
+    }
+
+    section .icone {
+        font-size: 2em;
+    }
+
+    section .career-title {
+        font-size: 1.5em;
+    }
+
+    .reco {
+        margin-left: -45px;
+    }
+    #experience {
+        margin-left: 15px;
+    }
+
+    #formations {
+        margin-left: 15px;
+    }
 }
