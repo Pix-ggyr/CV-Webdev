@@ -18,10 +18,10 @@ Cahier des charges :
 index.html
 README.md
 /css
-  /bootstrap.min.css
   /header.css
   /aside.css
   /right_section.css
+  /responsive.css
 /links
   /avatar.png
 /ressources
