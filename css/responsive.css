@@ -1,5 +1,15 @@
 /*------------------------Responsive stylesheet------------------------*/
 
+@media screen and (max-width : 768px) {
+
+    /*Petit correctif pour la section recommandation sur tablette*/
+
+    .reco {
+        margin-left: 35px;
+    }
+
+}
+
 @media screen and (max-width : 576px) {
 
     /*Responsive Header : Affinage soulignement + taille des polices*/
@@ -65,3 +75,5 @@
         margin-left: 15px;
     }
 }
+
+
