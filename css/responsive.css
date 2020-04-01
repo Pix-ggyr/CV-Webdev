@@ -1,0 +1,55 @@
+/*------------------------Responsive stylesheet------------------------*/
+
+@media screen and (max-width : 576px) {
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header h2 {
+        font-size: 1.3em;
+    }
+    
+    section .title {
+        margin-left: 0;
+        margin-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section .icone {
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    section .career-title {
+        font-size: 1.2em;
+    }
+
+        /*Disparition des puces et recalage du bloc date/lieu*/
+
+    .puce_i  i {
+        display: none;
+    }
+
+    .puce i {
+        display: none;
+    }
+
+    section h3 {
+        margin-left: -30px;
+    }
+
+
+    .reco {
+        margin-left: -5px;
+    }
+    #experience {
+        margin-left: 15px;
+    }
+
+    #formations {
+        margin-left: 15px;
+    }
+}

@@ -5,6 +5,8 @@
 #bloc_gauche {
     background-color:#FF5722;
     height: auto;
+    padding-right: 0;
+    padding-left: 0;
 
 }
 
@@ -39,13 +41,13 @@ header h2 {
     font-weight: normal;
 }
 
-header em {
+.encouleur {
     color: #FF5722;
     font-weight: bold;
     font-style: normal;
 }
 
-header strong {
-    border-bottom: solid 2px #FF5722;
+.souligne {
+    border-bottom: solid 2.5px #FF5722;
     font-weight: normal;
 }

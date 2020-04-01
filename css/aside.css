@@ -17,7 +17,13 @@
 #bandeau_gauche {
     width: 100%;
     background-color:#FF5722;
-    text-align: justify;  
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;  
+}
+
+#bonjour {
+    font-weight: bold;
 }
 
 aside p {
