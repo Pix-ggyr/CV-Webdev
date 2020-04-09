@@ -40,13 +40,8 @@ aside p {
     font-family: 'Open Sans', sans-serif ;
 }
 
-    /* Ajustement de Hobbies */
+    /* Ajustement des icônes pour Hobbies */
 
 #hobbies .fas .far {
     color: #212121;
-}
-
-#hobbies {
-    margin-top: 200px; /*margin-top: auto; ne fonctionne pas avec bootstrap*/
-    
 }

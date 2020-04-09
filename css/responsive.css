@@ -1,5 +1,16 @@
 /*------------------------Responsive stylesheet------------------------*/
 
+    /*Correctif pour la section hobbies sur desktop*/
+
+@media screen and (min-width :992px) {
+
+    #hobbies {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}   
+
 @media screen and (max-width : 768px) {
 
     /*Petit correctif pour la section recommandation sur tablette*/
@@ -8,7 +19,7 @@
         margin-left: 35px;
     }
 
-}
+}  
 
 @media screen and (max-width : 576px) {
 
