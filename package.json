@@ -1,0 +1,25 @@
+{
+  "name": "ocp2_cv_web",
+  "version": "1.0.0",
+  "description": "Projet 2 dans le cadre de la formation Openclassrooms Développeur web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pix-ggyr/OCP2_CV_web.git"
+  },
+  "author": "pix_ggyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pix-ggyr/OCP2_CV_web/issues"
+  },
+  "homepage": "https://github.com/Pix-ggyr/OCP2_CV_web#readme",
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
