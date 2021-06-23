@@ -1,0 +1,15 @@
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: red;
+}
+
+b {
+  font-weight: bold;
+  color: blue;
+}
+
+strong {
+  font-weight : bold;
+  color: gold;
+}
