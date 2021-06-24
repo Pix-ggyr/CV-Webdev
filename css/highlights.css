@@ -1,15 +1,62 @@
 em {
   font-style: normal;
   font-weight: bold;
-  color: red;
+  color: #e66533;
 }
 
 b {
   font-weight: bold;
-  color: blue;
+  color: #49d6e9;
 }
 
 strong {
-  font-weight : bold;
-  color: gold;
+  font-weight: bold;
+  color: #d5971a;
+}
+
+span {
+  font-weight: bold;
+}
+
+.bg-violet {
+  background-color: #7060eb;
+}
+
+.bg-red {
+  background-color: #e66533;
+}
+
+.bg-green {
+  background-color: #16b673;
+}
+
+.bg-light-blue {
+  background-color: #49d6e9;
+}
+
+.bg-pink {
+  background-color: #df769b;
+}
+
+.bg-yellow {
+  background-color: #d5971a;
+}
+
+.violet {
+  color: #7060eb;
+}
+.red {
+  color: #e66533;
+}
+.green {
+  color: #16b673;
+}
+.light-blue {
+  color: #49d6e9;
+}
+.pink {
+  color: #df769b;
+}
+.yellow {
+  color: #d5971a;
 }

@@ -1,7 +1,58 @@
 * {
-  font-family: "Fira Code", "Times new Roman", serif;
+  font-family: 'Fira Code', 'Times new Roman', serif;
 }
 
 body {
-  background-color: darkgrey;
+  background-color: #2e4858;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+#hello {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  max-width: 1000px;
+}
+
+.flag {
+  border-radius: 100px;
+  padding: 2px 10px;
+  color: #20303a;
+}
+
+.line {
+  width: 100%;
+  margin-top: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #e66533;
+}
+
+h3 {
+  color: #d5971a;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.oneline {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
